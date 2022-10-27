@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project hotel booking</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/ad2d0c9ea6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header>
+	<div id="menu-bar" class="fas-fa"></div>
+	<a href='#' class="logo"><span>H</span>alifax<span> H</span>otels</a>
+	<nav class="navbar">
+		<a href="#home">HOME</a>
+		<a href="#book">BOOKING</a>
+		<a href="#packages">PACKAGES</a>
+		<a href="#services">SERVICES</a>
+		<a href="#gallery">GALLERY</a>
+		<a href="#review">REVIEW</a>
+		<a href="#contact">CONTACT</a>
+	
+	</nav>
+	<div class ="icons">
+		<i class="fas fa-search" id="search-btn"></i>
+		<i class="fas fa-user" id="login-btn"></i>
+	</div>
+	<form action="" class="search-bar-container">
+		<input type="search" id="search-bar" placeholder="search here..">
+		<label for="search-bar" class="fas fa-search"></label></form>
+</header>
+
+<!--login form-->
+<div class="login-form-container">
+	<i class="fas fa-times" id="form-close"></i>
+	<form action="">
+		<h3>Login</h3>
+		<input type="Email" class="box" placeholder="Enter your Email..">
+		<input type="Password" class="box" placeholder="Enter your password">
+		<input type="submit" value="login now" class="btn">
+		<input type="checkbox" id="remember">
+		<label for="remember">Remember me</label>
+		<p>forgot password? <a href="#">click here</a></p>
+		<p>don't have an account? <a href="#">Register here</a></p>
+	</form>
+</div>
+
+<section class="home" id="home">
+	<div class="content">
+		<h3>It's Time for Adventures & Experiens</h3>
+		<h4>Find your next stay</h4>
+		<p>we will help you to enjoy your wonderful vaccation with your family</p>
+		<a href="#" class="btn"><button>Discover more</button></a>
+	</div>
+
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3
+</div>
+<img src="img3.jpg" style="width: 100%"></div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2/ 3
+</div>
+<img src="img2.jpg" style="width: 100%"></div>
+
+         <div class="mySlides fade">
+			<div class="numbertext">3 / 3
+</div>
+<img src="img1.jpg" style="width: 100%"></div>
+
+<a class="prev" onclick="plusSlides(-1)"><</a>
+<a class="next" onclick="plusSlides(1)">></a>
+</div><br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</section>
+<!--book section-->
+<section class="book" id="book">
+	<h1 class="heading">
+		<span>b</span>
+		<span>o</span>
+		<span>o</span>
+		<span>k</span>
+		<span class="space"></span>
+		<span>n</span>
+		<span>o</span>
+		<span>w</span>
+	</h1>
+	<div class="row">
+		<div class="img">
+			<img src="img4.jpg"></div>
+			<form action ="">
+	<div class="inputBox">
+		<h3>where to</h3>
+		<input type="text" placeholder="place name" ></div>
+		<div class="inputBox">
+			<h3>Number of guests</h3>
+			<input type="number" placeholder="number of guests">
+		</div>
+		<div class="inputBox">
+			<h3>Check-in date</h3>
+			<input type="date"></div>
+			<div class="inputBox">
+				<h3>Check-out date</h3>
+				<input type="date"></div>
+				<input type="submit" class="btn" value="book now">
+</form>
+</section>
+
+<!--package section  -->
+<section class="packages" id="packages">
+	<h1 class="heading">
+		<span>p</span>
+		<span>a</span>
+		<span>c</span>
+		<span>k</span>
+		<span>a</span>
+		<span>g</span>
+		<span>e</span>
+		<span>s</span>
+	</h1>
+	<div class="box-container">
+	<div class="box">
+		<img src="img5.jpg" alt="">
+		<div class="content">
+			<h3><i class="fas fa-map-marker-alt"></i>The Barrington hotel</h3>
+			<p>Located in the heart of downtown Halifax on the Link walkway system, the Barrington Hotel has free WiFi and an on-site restaurant. Halifax Citadel National Historic Site is 5 minutes' walk away. </p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i></div>
+			    <div class="price">prices from<br><span>CAD 800</span>per night</div>
+			    <a href="#" class="btn">Book now</a>
+			</div></div>
+			<div class="box">
+		<img src="img6.jpg" alt="">
+		<div class="content">
+			<h3><i class="fas fa-map-marker-alt"></i>Holiday Inn</h3>
+			<p>Located in the heart of downtown Halifax on the Link walkway system, the Barrington Hotel has free WiFi and an on-site restaurant. Halifax Citadel National Historic Site is 5 minutes' walk away. </p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i></div>
+			    <div class="price">prices from<br><span>CAD 1000</span>per night</div>
+			    <a href="#" class="btn">Book now</a>
+			</div></div>
+<div class="box">
+		<img src="img7.jpg" alt="">
+		<div class="content">
+			<h3><i class="fas fa-map-marker-alt"></i>Hotel halifax</h3>
+			<p>Providing modern accommodations, on-site dining options and a variety of exceptional in-room amenities, this Dartmouth, Nova Scotia hotel is situated a short distance from downtown Halifax and other. Our room was huge and so comfortable! </p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i></div>
+			    <div class="price">prices from<br><span>CAD 900</span>per night</div>
+			    <a href="#" class="btn">Book now</a>
+			</div></div>
+<div class="box">
+		<img src="img8.jpg" alt="">
+		<div class="content">
+			<h3><i class="fas fa-map-marker-alt"></i>Hampton Inn</h3>
+			<p>Built in May 2014, Hampton Inn by Hilton Halifax Downtown is located in Halifax. It boasts an indoor swimming pool and free Wi-Fi access throughout. Scotiabank Centre is within 240 metres. </p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i></div>
+			    <div class="price">prices from<br><span>CAD 1000</span>per night</div>
+			    <a href="#" class="btn">Book now</a>
+			</div></div>
+<div class="box">
+		<img src="img9.jpg" alt="">
+		<div class="content">
+			<h3><i class="fas fa-map-marker-alt"></i>Ocean view</h3>
+			<p>This Halifax hotel is located in Ocean side, a short drive from the city centre. The hotel offers free Wi-Fi, free on-site parking and a daily continental breakfast. Loved the size of the suite,  </p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i></div>
+			    <div class="price">prices from<br><span>CAD 700</span>per night</div>
+			    <a href="#" class="btn">Book now</a>
+			</div></div>
+		<div class="box">
+		<img src="img10.jpg" alt="">
+		<div class="content">
+			<h3><i class="fas fa-map-marker-alt"></i>Coastal Inn</h3>
+			<p>This Halifax hotel is located in Bayers Lake Business Park, a short drive from the city centre. The hotel offers free Wi-Fi, free on-site parking and a daily continental breakfast. Loved the size of the suite,  </p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i>
+			    <i class="fas fa-star"></i></div>
+			    <div class="price">prices from<br><span>CAD 600</span>per night</div>
+			    <a href="#" class="btn">Book now</a>
+			</div></div></div>
+</section>
+
+<!--services section -->
+<section class="services" id="services">
+	<h1 class="heading">
+		<span>s</span>
+		<span>e</span>
+		<span>r</span>
+		<span>v</span>
+		<span>i</span>
+		<span>c</span>
+		<span>e</span>
+		<span>s</span>
+	</h1>
+	<div class="box-container">
+		<div class="box">
+		<i class="fa-sharp fa-solid fa-person-swimming"></i>
+		<p>swimming pool with hot and cold water</p>
+		</div>
+		<div class="box">
+		<i class="fa-sharp fa-solid fa-square-parking"></i>
+		<p>we have free parking facilities</p>
+		</div>
+
+		<div class="box">
+		<i class="fa-sharp fa-solid fa-wifi"></i>
+		<p>our customers are accessible to free wifi</p>
+		</div>
+		<div class="box">
+	    <i class="fa-sharp fa-solid fa-ban-smoking"></i>
+		<p>Non-smoking rooms</p>
+		</div>
+		<div class="box">
+		<i class="fa-sharp fa-solid fa-paw"></i>
+		<p>pet-free environment</p>
+		</div>
+		<div class="box">
+	    <i class="fa-sharp fa-solid fa-wine-glass"></i>
+		<p>Bar facilities inside the lounge</p>
+		</div>
+		<div class="box">
+	  <i class="fa-sharp fa-solid fa-snowflake"></i>
+		<p>Air-Conditioner</p>
+		</div>
+		<div class="box">
+	   <i class="fa-sharp fa-solid fa-fire"></i>
+		<p>Heater facilities</p>
+		</div>
+	</div>
+
+
+</section>
+<!--gallery section -->
+<section class="gallery" id="gallery">
+	<h1 class="heading">
+		<span>g</span>
+		<span>a</span>
+		<span>l</span>
+		<span>l</span>
+		<span>e</span>
+		<span>r</span>
+		<span>y</span>
+		</h1>
+		<div class="box-container">
+			<div class="box">
+				<img src="imgA.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgB.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgC.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgD.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgE.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgF.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgG.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgH.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgI.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgJ.jpg" alt="">
+				</div>
+				<div class="box">
+				<img src="imgK.jpg" alt="">
+				</div>
+				
+</section>
+<!-- review section -->
+<section class="review" id="review">
+	<h1 class="heading">
+		<span>r</span>
+		<span>e</span>
+		<span>v</span>
+		<span>i</span>
+		<span>e</span>
+		<span>w</span>
+		</h1>
+		<div class="review-slider">
+			<div class="wrapper">
+					<div class="box">
+						<img src="p1.jpg" alt="">
+						<h3>Edward Bay</h3>
+						<p>Hotel has a great location. Check in was easy and fast. The facilities are good. Only problem is the price to room quality ratio is off. The rooms are clean but decor is badly dated and bathrooms need a renovation. Please note that the bed is comfortable and I’m very happy with this hotel. A five star review can’t be given because a real 5 star would have nicer/modern finishes. I recommend it for location and service.</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="wrapper">
+					<div class="box">
+						<img src="p2.jpg" alt="">
+						<h3>Giuilia</h3>
+						<p>Location is great, walking distance from lots of bars, restaurants, boardwalk etc. which was great because we didn’t have a car. The room was clean but dated. AC did not work well at all which is why it gets 3 stars .</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="wrapper">
+					<div class="box">
+						<img src="p3.jpg" alt="">
+						<h3>julie </h3>
+						<p>Nice hotel in a great location. Check in was easy and friendly. The view from our room was great. It was clean and the bathroom had been renovated and the shower was great. Parking can be an issue for some people as it is a bit of a walk </p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="wrapper">
+					<div class="box">
+						<img src="p4.jpg" alt="">
+						<h3>John doug</h3>
+						<p>The Hotel was very centrally located to all the attraction. The staff was friendly and helpful. With a fractured ankle they gave me a room on the first level and also put in grab handles etc. so that I would be comfortable getting in and out of the bath tub without any problem. Overall it was a comfortable stay there.</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i></div>
+						</div>
+					</div>
+					<div class="wrapper">
+					<div class="box">
+						<img src="p5.jpg" alt="">
+						<h3>Michel Jean</h3>
+						<p>Great location close to the waterfront and many restaurants. The Tempo restaurant inside the hotel is quite good for breakfast too. </p>
+							<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+						</div>
+					</div>
+				
+			</section>
+<!-- contact section -->
+<section class="contact" id="contact">
+	<h1 class="heading">
+		<span>c</span>
+		<span>o</span>
+		<span>n</span>
+		<span>t</span>
+		<span>a</span>
+		<span>c</span>
+		<span>t</span>
+		</h1>
+		<div class="row">
+			<div class="img">
+				<img src="contact.jpg" alt="">
+			</div>
+			<form action="">
+				<div class="inputBox">
+					<input type="text" placeholder="Name">
+					<input type="email" placeholder="Email">
+				</div>
+				<div class="inputBox">
+					<input type="number" placeholder="Number">
+					<input type="text" placeholder="Subject">
+				</div>
+				<textarea placeholder="Message" name="" cols="30"></textarea>
+				<input type="submit" class="btn" value="send message"></form>
+
+</section>
+
+<!--footer section-->
+<div class="footer">
+	<div class="box-container">
+		<div class="box">
+			<h3>About us</h3>
+			<p>We offer multiple simple and easy pathways for travelers to access essential hotel information 
+			to help them make a decision and book online or with an agent on the phone. If needed, our customer support is ready help 24/7 by phone and email. </p></div>
+			<div class="box">
+				<h3>Branch location</h3>
+				<a href="#">Toronto</a>
+			    <a href="#">Calgary</a>
+			    <a href="#">Halifax</a>
+			    <a href="#">ALberta</a>
+			    <a href="#">Montreal</a></div>
+			    <div class="box">
+			    	<h3>Quick Links</h3>
+			    	<a href="#">Home</a>
+			    	<a href="#">book</a>
+			    	<a href="#">packages</a>
+			    	<a href="#">services</a>
+			    	<a href="#">gallery</a>
+			    	<a href="#">review</a>
+			    	<a href="#">contact</a></div>
+			    	<div class="box">
+			    		<h3>follow us</h3>
+			    		<a href="#">Facebook<i class="fa-brands fa-square-facebook"></i></a>
+			    		<a href="#">instagram<i class="fa-brands fa-square-instagram insta"></i></a>
+			    		<a href="#">twitter<i class="fa-brands fa-square-twitter"></i></a>
+			    		<a href="#">linkedin<i class="fa-brands fa-linkedin"></i></a>
+			    		
+			    	</div>
+			    </div>
+			</div></section>
+<script src="main.js"></script>
+</body>
+</html>
